@@ -5,7 +5,7 @@ import back from "../assets/img/back.jpeg"
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import back1 from "../assets/img/property (1).jpeg"
-import back2 from "../assets/img/property (11).jpeg"
+import back2 from "../assets/img/property (3).jpeg"
 import back3 from "../assets/img/property (3).jpeg"
 import back4 from "../assets/img/property (6).jpeg"
 
@@ -22,7 +22,7 @@ export default function Index() {
               <h2 className="font-semibold text-4xl text-white">
               The Bloos Sky - Rishikesh
               </h2>
-              <p className="mt-4 text-sm leading-relaxed  text-white">
+              <p className="mt-4 text-lg leading-relaxed  text-white">
               Holi packages in Rishikesh are starting from Rs 1299/person. We are offer best tour packages for Holi Festival Saturday, 18 March 2022 in Rishikesh. {" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
@@ -170,23 +170,24 @@ Hotel Booking service in Uttarakhand, India                     </p>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
               The Bloos Sky- Cottage
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              🏵️HOLI FESTIVAL BOOKING 18 MARCH 🏵️<br/>
 
-RESORT :  The Bloos Sky🎊<br/>
-NAME :  NITIN Negi <br/>
-PHONE : 7017952158 .📱<br/>
-RATE : 🏕️🏡<br/>
-@ 1800/- PP Triple Sharing<br/>
-Three times Meals + 🍱 Evening Snacks. 🍟☕<br/>
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+             <span className="font-bold"> HOLI FESTIVAL BOOKING 18 MARCH</span> <br/>
+<span className="font-bold">RESORT : </span>The Bloos Sky<br/>
+<span className="font-bold">NAME : </span>Nitin Negi<br/>
+<span className="font-bold">PHONE : </span>7017952158<br/>
+<span className="font-bold">RATE : </span>1800/- PP Triple Sharing<br/>
+RATE :@2200/- PP Double Sharing.<br/>
+<span className="font-bold">Holi special : : </span>Gujiya  + Colour  + DJ.<br/>
+Three times Meals +  Evening Snacks. <br/>
+<span className="font-bold">Notes :- </span>16 km Rafting = 650/- PP Extra.<br/>
+<span className="font-bold">RESORT : </span>The Bloos Sky<br/>
+( Rafting payment will be pay at Rafting office. ) <br/>
+ </p>
+          
 
-Holi special :-  Gujiya 🧇 + Colour 🎨 + DJ. 🎼🎤<br/>
-
-Notes :-  16 km Rafting = 650/- PP Extra. 🚣🏻‍♂️<br/>
-( Rafting payment will be pay at Rafting office. ) 🛎️<br/>
-                </p>
               
-             <button className="bg-red-500 p-2  text-white border-white border-2 rounded-lg">Book Now</button>
+             <a href="tel:+91-7017952158" className="bg-red-500 p-2  text-white border-white border-2 rounded-lg">Book Now</a>
             </div>
 
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
@@ -274,21 +275,20 @@ Notes :-  16 km Rafting = 650/- PP Extra. 🚣🏻‍♂️<br/>
                 Holi in Bloos Sky
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              🏵️HOLI FESTIVAL BOOKING 18 MARCH 🏵️<br/>
-
-RESORT :  The Bloos Sky🎊<br/>
-NAME :  NITIN Negi <br/>
-PHONE : 7017952158 .📱<br/>
-RATE : 🏕️🏡<br/>
-@2200/- PP Double Sharing.<br/>
-Three times Meals + 🍱 Evening Snacks. 🍟☕<br/>
-
-Holi special :-  Gujiya 🧇 + Colour 🎨 + DJ. 🎼🎤<br/>
-
-Notes :-  16 km Rafting = 650/- PP Extra. 🚣🏻‍♂️<br/>
-( Rafting payment will be pay at Rafting office. ) 🛎️<br/> </p>
+             <span className="font-bold"> HOLI FESTIVAL BOOKING 18 MARCH</span> <br/>
+<span className="font-bold">RESORT : </span>The Bloos Sky<br/>
+<span className="font-bold">NAME : </span>Nitin Negi<br/>
+<span className="font-bold">PHONE : </span>7017952158<br/>
+<span className="font-bold">RATE : </span>@2200/- PP Double Sharing.<br/>
+RATE :@2200/- PP Double Sharing.<br/>
+<span className="font-bold">Holi special : : </span>Gujiya  + Colour  + DJ.<br/>
+Three times Meals +  Evening Snacks. <br/>
+<span className="font-bold">Notes :- </span>16 km Rafting = 650/- PP Extra.<br/>
+<span className="font-bold">RESORT : </span>The Bloos Sky<br/>
+( Rafting payment will be pay at Rafting office. ) <br/>
+ </p>
              
-              <button className="bg-red-500 p-2  text-white border-white border-2 rounded-lg">Know More</button>
+ <a href="tel:+91-7017952158" className="bg-red-500 p-2  text-white border-white border-2 rounded-lg">Book Now</a>
              
              
             </div>
@@ -370,7 +370,7 @@ We always try to make our customers happy and satisfied with the facilities keep
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src={back2}
+                src={back4}
               />
             </div>
           </div>
@@ -380,7 +380,7 @@ We always try to make our customers happy and satisfied with the facilities keep
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Bloos Sky</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-            Badrinath Hotels and Accommodation have Sanitized Rooms, Trained Staff, Sterilize Indoor with Guest and Staff Temperature Check. Best Hotel in Badrinath Narmada Bhavan, Hotel Acharya Sadan, Also Have Hotel Similar Ashram in Badrinath is Jalaram Ashram, Sheshnetra Ashram, Bharat Sevashram Sangha.
+            Bloos Sky in Rishikesh is one of the top-notch Eco-Luxury resort in the river Ganga. Sheltered near ganga river and is a place with peace where you can spend time with your family or can connect with oneself, a perfect place to be “yourself,” to be precise. The serenity will help you heal the mayhem which is going in and around you, and when you are with us, you choose comfort and harmony, But this is definitely not the only reason we are inviting you.
             </p>
           </div>
         </div>
@@ -429,7 +429,8 @@ We always try to make our customers happy and satisfied with the facilities keep
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        className="align-middle border-none max-w-full h-24 rounded-lg "
+                         
                         src={back2}
                       />
                     </div>
@@ -444,30 +445,29 @@ We always try to make our customers happy and satisfied with the facilities keep
       <section className="  overflow-hidden back1 mt-10">
         <div className="container mx-auto pb-64 ">
           <div className="flex flex-wrap justify-center">
-            <div className="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
+            <div className="w-full md:w-12/12 px-2 md:px-4 ml-auto mr-auto md:mt-64">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-code-branch text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
-                Kedarnath Darshan
+                Experience in Bloos Sky Rishikesh
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400">
-                Since{" "}
+              We have{" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
                   className="text-blueGray-300"
                   target="_blank"
                 >
-                  Tailwind CSS
+                  successfully
                 </a>{" "}
-                is an open source project we wanted to continue this movement
-                too. You can give this version a try to feel the design and also
-                test the quality of the code!
+                  completed a decade in field of tour and travel. During this tenure we have served thousands of clients from across the globe. Through this experience we have developed a rich understanding of travelers mood. So we can better suggest and offer trips of your mood. Our team of well trained and certified guides would make your journey hassle free and memorable.
+
+As we are here not for the sake of business only, we want to promote culture, tourism and rural entrepreneurship as well. At the same time protecting environment is our big concern. Whenever we take traveler for trip, we not just focus to reduce plastic waste generation, but also try to optimize the exploitation of natural resources.
+
+
               </p>
-              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">
-                Get it free on Github and please help us spread the news with a
-                Star!
-              </p>
+            
               <a
                 href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
                 target="_blank"
