@@ -1,0 +1,14 @@
+.back{
+background-image: linear-gradient(to right,rgb(0 6 61 / 93%) 40%,rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url(./assets/img/holi\ \(2\).jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.back1{
+        background-image: linear-gradient(to right,rgb(0 6 61 / 93%) 40%,rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url(./assets/img/property\ \(1\).jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+}
+.call{
+        background-image:linear-gradient(rgb(247, 255, 255),rgb(157, 201, 221),rgb(111, 162, 255)) ;
+}
