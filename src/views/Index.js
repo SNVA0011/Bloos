@@ -23,7 +23,7 @@ export default function Index() {
               The Bloos Sky - Rishikesh
               </h2>
               <p className="mt-4 text-lg leading-relaxed  text-white">
-              Holi packages in Rishikesh are starting from Rs 1299/person. We are offer best tour packages for Holi Festival Saturday, 18 March 2022 in Rishikesh. {" "}
+              Holi packages in Rishikesh are starting from Rs 1500/person. We are offer best tour packages for Holi Festival Saturday, 18 March 2022 in Rishikesh. {" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
                   className="text-white text-sm"
