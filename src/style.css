@@ -1,11 +1,11 @@
 .back{
-background-image: linear-gradient(to right,rgb(0 6 61 / 93%) 40%,rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url(./assets/img/holi\ \(2\).jpg);
+background-image: linear-gradient(to right,rgb(0 6 61 / 93%) 40%,rgba(0,0,0,0.2),rgba(0,0,0,0.5)), url(./assets/img/rafting.jpg);
 background-size: 100%;
 background-repeat: no-repeat;
 }
 
 .back1{
-        background-image: linear-gradient(to right,rgba(0, 6, 61, 0.692) 40%,rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.774)), url(./assets/img/property\ \(1\).jpeg);
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.842) 40%,rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.774)), url(./assets/img/bedroom.jpeg);
         background-size: 100%;
        
         background-repeat: no-repeat;

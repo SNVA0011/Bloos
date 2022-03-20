@@ -9,8 +9,7 @@ import back2 from "../assets/img/property (3).jpeg"
 import back3 from "../assets/img/property (3).jpeg"
 import back4 from "../assets/img/property (6).jpeg"
 import bedroom from '../assets/img/bedroom.jpeg';
-
-
+import package1 from '../assets/img/package1.jpeg'
 
 export default function Index() {
   return (
@@ -24,7 +23,7 @@ export default function Index() {
               The Bloos Sky - Rishikesh
               </h2>
               <p className="mt-4 text-lg leading-relaxed  text-white">
-              Holi packages in Rishikesh are starting from Rs 1650/person. We are offer best tour packages for Holi Festival Saturday, 18 March 2022 in Rishikesh. {" "}
+              Bloos Sky in Rishikesh is one of the top-notch Eco-Luxury resort in the river Ganga. Sheltered near ganga river and is a place with peace where you can spend time with your family or can connect with oneself, a perfect place to be “yourself,” to be precise. The serenity will help you heal the mayhem which is going in and around you, and when you are with us, you choose comfort and harmony, But this is definitely not the only reason we are inviting you.
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
                   className="text-white text-sm"
@@ -32,7 +31,6 @@ export default function Index() {
                 >
  
                 </a>
-                Holi Celebrations River Rafting, Body Surfing, Cliff Jumping, Waterfall/Jungle Trekking, Bird Watching, Bonefire, Volleyball Adventure Spots. All meals Breakfast, Lunch, Snacks and Dinner. 
               </p>
               <div className="mt-12">
                 <a
@@ -40,7 +38,7 @@ export default function Index() {
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
-                  Call Now
+                  Book Now
                 </a>
               
               </div>
@@ -179,8 +177,7 @@ Hotel Booking service in Uttarakhand, India                     </p>
 <span className="font-bold">PHONE : </span>7017952158<br/>
 <span className="font-bold">RATE : </span>1800/- PP Triple Sharing<br/>
 RATE :@2200/- PP Double Sharing.<br/>
-<span className="font-bold">Holi special : : </span>Gujiya  + Colour  + DJ.<br/>
-Three times Meals +  Evening Snacks. <br/>
+
 <span className="font-bold">Notes :- </span>16 km Rafting = 650/- PP Extra.<br/>
 <span className="font-bold">RESORT : </span>The Bloos Sky<br/>
 ( Rafting payment will be pay at Rafting office. ) <br/>
@@ -192,82 +189,13 @@ Three times Meals +  Evening Snacks. <br/>
             </div>
 
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
-              <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
-                <img
-                  alt="..."
-                  src={back}         className="w-full align-middle rounded absolute shadow-lg max-w-100-px z-3 left-145-px -top-29-px"
-                />
-                <img
-                  alt="..."
-                  src={back}                  className="w-full align-middle rounded-lg absolute shadow-lg -top-160-px left-260-px max-w-210-px"
-                />
-                <img
-                  alt="..."
-                  src={back}               className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px -top-225-px left-40-px z-2"
-                />
-                <img
-                  alt="..."
-                  src={back}            className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
-                />
-                <img
-                  alt="..."
-                  src={back}          className="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
-                />
-                <img
-                  alt="..."
-                  src={back}              className="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
-                />
-              </div>
+              <img src={package1}/>
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center pt-32">
+          {/* <div className="flex flex-wrap items-center pt-32">
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
-              <div className="justify-center flex flex-wrap relative">
-                <div className="my-4 w-full lg:w-6/12 px-4">
-                  
-                    
-                      <img
-                        alt="..."
-                        className="shadow-md  max-w-full w-full mx-auto  bg-white"
-                        src={back}                />
-                     <br/>
-                
-                 
-                      <img
-                        alt="..."
-                        className="shadow-md  max-w-full w-full mx-auto p-2 bg-white"
-                        src={back}               />
-                     <br/>
-                   
-                 <img
-                        alt="..."
-                        className="shadow-md  max-w-full w-full mx-auto p-2 bg-white"
-                        src={back}                />
-                     <br/>
-                   
-                </div>
-                <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
-                  <img
-                        alt="..."
-                        className="shadow-md  max-w-full w-full mx-auto p-2 bg-white"
-                        src={back}            />
-                     <br/>
-                   
-                   <img
-                        alt="..."
-                        className="shadow-md  max-w-full w-full mx-auto p-2 bg-white"
-                        src={back}                 />
-                     <br/>
-                
-                   <img
-                        alt="..."
-                        className="shadow-md  max-w-full w-full mx-auto p-2 bg-white"
-                        src={back}             />
-                     <br/>
-                   
-                </div>
-              </div>
+              
             </div>
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
@@ -293,7 +221,7 @@ Three times Meals +  Evening Snacks. <br/>
              
              
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="container mx-auto px-4 pb-10 pt-10">
@@ -460,7 +388,7 @@ As we are here not for the sake of business only, we want to promote culture, to
                 target="_blank"
                 className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
               >
-                Github Star
+                Book Now
               </a>
             </div>
 
