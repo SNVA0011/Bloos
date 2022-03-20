@@ -8,6 +8,7 @@ import back1 from "../assets/img/property (1).jpeg"
 import back2 from "../assets/img/property (3).jpeg"
 import back3 from "../assets/img/property (3).jpeg"
 import back4 from "../assets/img/property (6).jpeg"
+import bedroom from '../assets/img/bedroom.jpeg';
 
 
 
@@ -23,7 +24,7 @@ export default function Index() {
               The Bloos Sky - Rishikesh
               </h2>
               <p className="mt-4 text-lg leading-relaxed  text-white">
-              Holi packages in Rishikesh are starting from Rs 1500/person. We are offer best tour packages for Holi Festival Saturday, 18 March 2022 in Rishikesh. {" "}
+              Holi packages in Rishikesh are starting from Rs 1650/person. We are offer best tour packages for Holi Festival Saturday, 18 March 2022 in Rishikesh. {" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
                   className="text-white text-sm"
@@ -391,7 +392,7 @@ We always try to make our customers happy and satisfied with the facilities keep
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
               <div className="flex flex-wrap">
-                <div className="w-full lg:w-4/12 px-4">
+                <div className="w-full lg:w-6/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Bedroom
                   </h5>
@@ -400,13 +401,13 @@ We always try to make our customers happy and satisfied with the facilities keep
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={back1}
+                        src={bedroom}
                       />
                     </div>
                   </Link>
                 </div>
 
-                <div className="w-full lg:w-4/12 px-4">
+                <div className="w-full lg:w-6/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Balcony
                   </h5>
@@ -421,21 +422,7 @@ We always try to make our customers happy and satisfied with the facilities keep
                   </Link>
                 </div>
 
-                <div className="w-full lg:w-4/12 px-4">
-                  <h5 className="text-xl font-semibold pb-4 text-center">
-                    Washroom
-                  </h5>
-                  <Link to="/landing">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
-                      <img
-                        alt="..."
-                        className="align-middle border-none max-w-full h-24 rounded-lg "
-                         
-                        src={back2}
-                      />
-                    </div>
-                  </Link>
-                </div>
+                
               </div>
             </div>
           </div>
